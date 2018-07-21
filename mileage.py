@@ -1,3 +1,6 @@
 print("How many kilometers did you travel today?")
-kms = input()
-print(f"Ok, you said {kms}!"
+kms = float(input())
+conversion = 1.60934
+print(f"Ok, you said {kms}!")
+miles = round(float(kms)/conversion, 2)
+print(f"That is {miles} miles! Nice work!")
