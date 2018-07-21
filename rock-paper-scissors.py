@@ -5,7 +5,7 @@ player1 = input("Player 1, please choose one of the three choices: ").lower()
 count = 0
 while count < 20:
     print("* * * NO CHEATING * * *")
-    count++
+    count+=1
 player2 = input("Player 2, please choose one of the three choices: ").lower()
 
 win1 = "Player 1 wins!"
