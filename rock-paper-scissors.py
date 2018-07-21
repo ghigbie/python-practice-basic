@@ -16,7 +16,7 @@ elif player1 == 'paper' and player2 == 'rock':
     print(win1)
 elif player1 == 'scissors' and player2 == 'paper':
     print(win1)
-if player2 == 'rock' and player1 == 'paper':
+elif player2 == 'rock' and player1 == 'paper':
     print(win2)
 elif player2 == 'paper' and player1== 'rock':
     print(win2)
