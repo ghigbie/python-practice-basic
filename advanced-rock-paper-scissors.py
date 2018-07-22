@@ -14,22 +14,19 @@ win2 = "Player 2 wins!"
 if player1 == 'rock':
     if player2 == 'scissors':
         print(win1)
+    if player2 == 'paper':
+        print(win2)
 elif player1 == 'paper':
-    if player2 == 'rock':
+    if player2 == 'scissors':
+        print(win2)
+    if player2 == 'rock:
         print(win1)
 elif player1 == 'scissors':
-    if player2 == 'paper':
+    if player2 == 'rock':
+        print(win2)
+    if player2 == 'paper:
         print(win1)
-elif player2 == 'rock':
-    if player1 == 'scissors':
-        print(win2)
-elif player2 == 'paper':
-    player1== 'rock':
-        print(win2)
-elif player2 == 'scissors':
-    if player1 == 'paper':
-        print(win2)
-elif player1 == player2:
+elif player1 == player2
     print('There is a tie!')
 else:
     print('Invalid choice. Please play again.')
