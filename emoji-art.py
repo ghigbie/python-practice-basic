@@ -11,3 +11,8 @@ print("*************************")
 numbers = range(1, stop)
 for num in numbers:
     print(emoji * num)
+
+numbers2 = range(1, 10)
+for num in range(5):
+    for num in numbers2:
+        print(emoji * num)
