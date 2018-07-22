@@ -1,7 +1,5 @@
-repeat = int(input('How many times do I have to tell you? '))
-count = 0
-clean  = 'CLEAN UP YOUR ROOM'
+times = range(int(input('How many times do I have to tell you? ')))
+clean = 'CLEAN UP YOUR ROOM'
 
-while count < repeat:
+for time in times:
     print(clean)
-    count+=1
