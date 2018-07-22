@@ -6,11 +6,7 @@ player1 = input("Player 1, please choose one of the three choices: ").lower()
 if player1 != 'rock' or player1 != 'paper' or player1 != 'scissors':
     print('You entered an invalid choice.')
     player1 = input("Player 1, please choose one of the three choices: ").lower()
-
-count = 0
-while count < 20:
-    print("* * * NO CHEATING * * *")
-    count+=1
+print("* * * NO CHEATING * * *\n\n" *20) #twenty times printed with two returns
 player2 = input("Player 2, please choose one of the three choices: ").lower()
 if player2 != 'rock' or player2 != 'paper' or player2 != 'scissors':
     print('You entered an invalid choice.')
