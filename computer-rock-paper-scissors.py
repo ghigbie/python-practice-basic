@@ -7,8 +7,8 @@ for option in options:
 comp_random_option = options[randint(0,2)]
 
 player1 = input("Player 1, please choose one of the three choices: ").lower()
-# if player1 != 'rock' or player1 != 'paper' or player1 != 'scissors':
-#     print('You entered an invalid choice.')
+# while player1 != options[0] or player1 != options[1] or player1 != options[2]:
+#     print("You ented an invalid choice.")
 #     player1 = input("Player 1, please choose one of the three choices: ").lower()
 
 win1 = "Player 1 wins!"
