@@ -3,7 +3,7 @@ numbers = range(1, 21)
 
 for number in numbers:
     if number == 4 or number == 13:
-        print(f"{number} is unlucky")
+        print(f"{number} is UNLUCKY")
     elif number % 2 == 1:
         print(f"{number} is even")
     else:
