@@ -8,6 +8,6 @@ while count < stop:
 
 print("*************************")
 
-numbers = range(1, 21)
+numbers = range(1, stop)
 for num in numbers:
     print(emoji * num)
