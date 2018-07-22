@@ -1,10 +1,10 @@
-import random
+from random import randint
 
 options = ['rock', 'paper', 'scissors']
 for option in options:
     print(f"...{option}...")
 
-comp_random_option = options[random.randint(0,2)]
+comp_random_option = options[randint(0,2)]
 
 player1 = input("Player 1, please choose one of the three choices: ").lower()
 # if player1 != 'rock' or player1 != 'paper' or player1 != 'scissors':
