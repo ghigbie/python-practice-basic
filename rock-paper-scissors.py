@@ -22,5 +22,7 @@ elif player2 == 'paper' and player1== 'rock':
     print(win2)
 elif player2 == 'scissors' and player1 == 'paper':
     print(win2)
+elif player1 == player2:
+    print('There is a tie!')
 else:
     print('Invalid choice. Please play again.')
