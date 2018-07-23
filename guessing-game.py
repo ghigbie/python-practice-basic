@@ -2,7 +2,7 @@ from random import randint
 goal = randint(1, 10)
 guess = None
 
-while guess != goal:
+while True:
     guess = int(input('Guess a number between 1 and 10 \n'))
     if guess == goal:
         print('You guessed it! You won! \n')
