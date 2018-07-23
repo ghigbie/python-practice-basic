@@ -11,6 +11,7 @@ while guess != goal:
             guess = None
             goal = randint(1, 10)
         else:
+            print('Thanks for playing : )')
             break
     elif guess < goal:
         print('Too low, try again!')
