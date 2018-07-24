@@ -14,7 +14,7 @@ while player_wins < winning_score and computer_wins < winning_score:
     print(f'Total score: Player {player_wins} / Computer {computer_wins}')
     player1 = input("Player 1, please choose one of the three choices: ").lower()
     if player1 == 'quit' or player1 == 'q':
-        break:
+        break
     if player1 == comp_random_option:
         print('There is a tie!')
     elif player1 == 'rock':
