@@ -12,6 +12,7 @@ while player_wins < winning_score and computer_wins < winning_score:
     for option in options:
         print(f"...{option}...")
     print(f'Total score: Player {player_wins} / Computer {computer_wins}')
+    print('**************************************************************')
     player1 = input("Player 1, please choose one of the three choices: ").lower()
     if player1 == 'quit' or player1 == 'q':
         break
@@ -41,11 +42,15 @@ while player_wins < winning_score and computer_wins < winning_score:
     else:
         print('Invalid choice. Please play again.')
 
-
+print('**************************************************************')
 print(f'FINAL SCORE: Player {player_wins} / Computer {computer_wins}')
+print('**************************************************************')
+
 
 if player_wins > computer_wins:
-    print('Congratulations! You won!')
+    print('**************************************************************')
+    print('***************Congratulations! You won!**********************')
+    print('**************************************************************')
 elif player_wins == computer_wins:
     print('Please come back soon!')
 else:
