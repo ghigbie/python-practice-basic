@@ -3,10 +3,10 @@ options = ['rock', 'paper', 'scissors']
 player_wins = 0
 computer_wins = 0
 
-while player_wins < 2 or computer_wins < 2:
+while player_wins < 2 and computer_wins < 2:
     for option in options:
         print(f"...{option}...")
-
+    print(f'Total score: Player {player_wins} / Computer {computer_wins}')
     comp_random_option = options[randint(0,2)]
 
     player1 = input("Player 1, please choose one of the three choices: ").lower()
@@ -43,5 +43,11 @@ while player_wins < 2 or computer_wins < 2:
             player_wins += 1
     else:
         print('Invalid choice. Please play again.')
-    
-    print(f'Total score: Player {player_wins} / Computer {computer_wins}')
+
+
+print(f'FINAL SCORE: Player {player_wins} / Computer {computer_wins}')
+
+if player_wins > computer_wins:
+    print('Congratulations! You won!')
+else:
+    print('Sorry please try again')
