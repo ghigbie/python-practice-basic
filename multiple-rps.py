@@ -3,22 +3,18 @@ options = ['rock', 'paper', 'scissors']
 player_wins = 0
 computer_wins = 0
 winning_score = 2
+win1 = "Player 1 wins!"
+win2 = "Computer wins!"
+comp_random_option = options[randint(0,2)]
+computer_choice = f"Computer chooses {comp_random_option}."
 
 while player_wins < winning_score and computer_wins < winning_score:
     for option in options:
         print(f"...{option}...")
     print(f'Total score: Player {player_wins} / Computer {computer_wins}')
-    comp_random_option = options[randint(0,2)]
-
     player1 = input("Player 1, please choose one of the three choices: ").lower()
-    # while player1 != options[0] or player1 != options[1] or player1 != options[2]:
-    #     print("You ented an invalid choice.")
-    #     player1 = input("Player 1, please choose one of the three choices: ").lower()
-
-    win1 = "Player 1 wins!"
-    win2 = "Computer wins!"
-    computer_choice = f"Computer chooses {comp_random_option}."
-
+    if player1 == 'quit' or player1 == 'q':
+        break:
     if player1 == comp_random_option:
         print('There is a tie!')
     elif player1 == 'rock':
