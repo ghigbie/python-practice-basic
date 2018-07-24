@@ -2,8 +2,9 @@ from random import randint
 options = ['rock', 'paper', 'scissors']
 player_wins = 0
 computer_wins = 0
+winning_score = 2
 
-while player_wins < 2 and computer_wins < 2:
+while player_wins < winning_score and computer_wins < winning_score:
     for option in options:
         print(f"...{option}...")
     print(f'Total score: Player {player_wins} / Computer {computer_wins}')
