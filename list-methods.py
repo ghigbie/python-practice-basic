@@ -57,3 +57,29 @@ for num in numbers:
 count = 0
 
 print ('**********************')
+# clear will remove all items from a list
+numbers.clear()
+print ('**********************')
+print ('**********************')
+for num in numbers:
+    print(num)
+print ('**********************')
+print ('**********************')
+
+numbers = [1, 2, 3, 4, 5]
+numbers.extend([6, 7, 8, 9, 10, 11, 12, 13, 14])
+
+for num in numbers:
+    print(num)
+
+print ('**********************')
+
+numbers.pop()
+for num in numbers:
+    print(num)
+print ('**********************')
+numbers.pop(0)
+for num in numbers:
+    print(num)
+print ('**********************')
+
