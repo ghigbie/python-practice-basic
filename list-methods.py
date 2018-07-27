@@ -104,5 +104,7 @@ print('*********************')
 #reverse changes the order of a list
 
 numbers.reverse()
+for num in numbers:
+    print(num)
 
 print ('**********************')
