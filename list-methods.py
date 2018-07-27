@@ -108,3 +108,11 @@ for num in numbers:
     print(num)
 
 print ('**********************')
+#sorts a list in asscending order
+numbers.sort()
+
+
+for num in numbers:
+    print(num)
+
+print ('**********************')
