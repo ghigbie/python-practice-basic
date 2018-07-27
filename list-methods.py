@@ -89,7 +89,7 @@ for num in numbers:
     print(num)
 
 print ('**********************')
-
+#removes a specified value
 numbers.remove('yellow')
 
 for num in numbers:
