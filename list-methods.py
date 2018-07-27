@@ -96,3 +96,8 @@ for num in numbers:
     print(num)
 
 print ('**********************')
+# provides the index of a value
+val = numbers.index(11)
+print(val)
+
+print('*********************')
