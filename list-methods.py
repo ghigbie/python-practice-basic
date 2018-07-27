@@ -140,3 +140,8 @@ colors[0], colors[1] = colors[1], colors[0]
 print(colors)
 
 print ('**********************')
+# List comprehension
+[x*10 for x in numbers]
+print(numbers)
+
+print ('**********************')
