@@ -138,7 +138,9 @@ colors = ['red', 'blue', 'green']
 print(colors)
 colors[0], colors[1] = colors[1], colors[0]
 print(colors)
-
+print ('**********************')
+#joins strings only in a list
+print('...'.join(colors))
 print ('**********************')
 # List comprehension
 ten_numbers = [x*10 for x in numbers]
