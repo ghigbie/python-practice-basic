@@ -141,7 +141,7 @@ print(colors)
 
 print ('**********************')
 # List comprehension
-[x*10 for x in numbers]
-print(numbers)
+ten_numbers = [x*10 for x in numbers]
+print(ten_numbers)
 
 print ('**********************')
