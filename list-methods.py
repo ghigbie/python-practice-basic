@@ -118,6 +118,25 @@ for num in numbers:
 print ('**********************')
 
 #joins all the items in a list in to a string
-' '.join(numbers)
+# string-val = ", ".join(numbers)
+# print(numbers)
+
+
+print ('**********************')
+#slice functions
+print(numbers[::])
+print(numbers[4:8])
+print(numbers[0:12:2])
+print(numbers[::-1])
+print(numbers[::-2])
+print(numbers[::-3])
+print('redrum'[::-1])
+print ('**********************')
+
+#comma syntax for switching items in list
+colors = ['red', 'blue', 'green']
+print(colors)
+colors[0], colors[1] = colors[1], colors[0]
+print(colors)
 
 print ('**********************')
