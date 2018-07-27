@@ -83,3 +83,16 @@ for num in numbers:
     print(num)
 print ('**********************')
 
+numbers.append('yellow')
+
+for num in numbers:
+    print(num)
+
+print ('**********************')
+
+numbers.remove('yellow')
+
+for num in numbers:
+    print(num)
+
+print ('**********************')
