@@ -101,3 +101,8 @@ val = numbers.index(11)
 print(val)
 
 print('*********************')
+#reverse changes the order of a list
+
+numbers.reverse()
+
+print ('**********************')
