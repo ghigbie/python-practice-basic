@@ -143,5 +143,16 @@ print ('**********************')
 # List comprehension
 ten_numbers = [x*10 for x in numbers]
 print(ten_numbers)
-
+halfnumbers = [x/2 for x in numbers]
+print(halfnumbers)
+print([color.upper() for color in colors])
+print(colors)
+print([bool(color) for color in colors])
+new_numbers = [0, 1, 0, 2, 0, 3, 0, 4]
+print([bool(new) for new in new_numbers])
 print ('**********************')
+#List Comprehension with conditionals
+print([num for num in numbers if num % 2 == 0])
+print([num for num in numbers if num % 2 == 1])
+print([color for color in colors if color == 'red'])
+print([color for color in colors if color == 'blue'])
