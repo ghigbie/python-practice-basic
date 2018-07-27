@@ -116,3 +116,8 @@ for num in numbers:
     print(num)
 
 print ('**********************')
+
+#joins all the items in a list in to a string
+' '.join(numbers)
+
+print ('**********************')
