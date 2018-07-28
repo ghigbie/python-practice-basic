@@ -43,3 +43,12 @@ print('**********************')
 for item in rooms3.items():
     print(item)
 print('**********************')
+print('**********************')
+for key, value in kittens.items():
+    print(key, ' --- ', value)
+print('**********************')
+for key, vllue in rooms3.items():
+    print(key, ' --- ', value)
+print('**********************')
+for key, vlaue in rooms2.items():
+    print(key, ' --- ', value)
