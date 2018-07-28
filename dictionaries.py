@@ -47,8 +47,21 @@ print('**********************')
 for key, value in kittens.items():
     print(key, ' --- ', value)
 print('**********************')
-for key, vllue in rooms3.items():
+for key, value in rooms3.items():
     print(key, ' --- ', value)
 print('**********************')
 for key, vlaue in rooms2.items():
     print(key, ' --- ', value)
+print('**********************')
+for key, value in kittens.items():
+    print(f"The key is {key} & the value is {value}")
+print('**********************')
+print("number" in kittens)
+print("cute" in kittens)
+print("loving" in kittens)
+print("color" in kittens)
+print('**********************')
+print(2 in kittens.values())
+print(True in kittens.vlaues())
+print('grey' in kittens.values())
+print('**********************')
