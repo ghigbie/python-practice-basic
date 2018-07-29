@@ -76,13 +76,16 @@ print(kittens2)
 print('********** get ************')
 print(kittens.get('size'))
 print('*********** pop ***********')
-#removes an item from a list when a key is passed in 
+#removes an item from a dictionary when a key is passed in 
 doggies = kittens.copy()
 print(kittens2)
 print(kittens2.pop('color'))
 print(kittens2)
 print('********* popitem *************')
-#removes an item from the list - I think at radom
-kittems2.popitem()
+#removes an item from the dictionary - I think at radom // but not sure
+print(kittens2)
+kittens2.popitem()
+print(kittens2)
+kittens2.popitem()
 print(kittens2)
 print('**********************')
