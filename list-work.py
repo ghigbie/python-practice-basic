@@ -32,5 +32,20 @@ print(result.upper())
 print('********************')
 
 stuff = ['books', 'dvds', 'computers']
-stuff = " ".join(stuff)
+stuffs = " ".join(stuff)
+print(stuffs)
+stuffs2 = "".join(stuff)
+print(stuffs2)
 print('********************')
+
+cats = ['Blue', "Kicker", "Chubby", "Fluffy"]
+print(cats)
+cats.clear()
+print(cats)
+print('********************')
+
+cats = ['Blue', "Kicker", "Chubby", "Fluffy"]
+print(cats)
+cats.pop()
+print(cats)
+print('************************')
