@@ -48,4 +48,14 @@ cats = ['Blue', "Kicker", "Chubby", "Fluffy"]
 print(cats)
 cats.pop()
 print(cats)
+cats.pop(0)
+print(cats)
+print('************************')
+
+cats = ['Blue', "Kicker", "Chubby", "Fluffy", "Blue"]
+print(cats)
+cats.remove('Blue')
+print(cats)
+cats.remove(cats[2])
+print(cats)
 print('************************')
