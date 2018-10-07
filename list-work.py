@@ -15,3 +15,22 @@ while i < len(numbers):
     i += 1
 
 print('**************************')
+
+i = 0
+while i < len(colors):
+    print(f"At index {i} the color is {colors[i]}")
+    i += 1
+
+print('************************')
+result = ''
+sounds = ["super", "cali", "fragil", "istic", "expi", "ali", "docious"]
+for sound in sounds:
+    result += sound
+
+print(result.upper())
+
+print('********************')
+
+stuff = ['books', 'dvds', 'computers']
+stuff = " ".join(stuff)
+print('********************')
